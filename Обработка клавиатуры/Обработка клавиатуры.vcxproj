@@ -143,6 +143,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="Mediator.cpp" />
+    <ClCompile Include="MovingWindow.cpp" />
+    <ClCompile Include="MovingWindowIncludedBorder.cpp" />
+    <ClCompile Include="MovingWindowOnTimer.cpp" />
+    <ClCompile Include="MyWindow.cpp" />
+    <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="IColleague.h" />
+    <ClInclude Include="Mediator.h" />
+    <ClInclude Include="MovingWindow.h" />
+    <ClInclude Include="MovingWindowIncludedBorder.h" />
+    <ClInclude Include="MovingWindowOnTimer.h" />
+    <ClInclude Include="MyWindow.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
